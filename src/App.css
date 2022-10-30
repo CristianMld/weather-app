@@ -36,7 +36,8 @@ button {
   cursor: pointer;
   font-size: 18px;
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-left: 25px;
 }
 
 img {
@@ -55,12 +56,12 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-left: 30%;
+  margin-left: 24%;
 }
 
 @media (max-width: 480px) {
   .card {
-    width: 60%;
+    width: 65%;
   }
 
   img {
@@ -72,7 +73,7 @@ img {
   }
 
   button {
-    margin-top: 25px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
   }
 }
