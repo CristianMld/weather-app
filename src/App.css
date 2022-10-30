@@ -60,7 +60,7 @@ img {
 
 @media (max-width: 480px) {
   .card {
-    width: 70%;
+    width: 60%;
   }
 
   img {
@@ -72,6 +72,7 @@ img {
   }
 
   button {
-    margin-top: 2px;
+    margin-top: 25px;
+    margin-left: 20px;
   }
 }
