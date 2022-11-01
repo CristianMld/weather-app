@@ -32,7 +32,9 @@ const Weather = () => {
     <div className='card'>
       {
         isLoading ? (
-          <h1>Loading...</h1>
+          <>
+            <h1>Loading...</h1>
+          </>
         ) : (
           <>
             <div className="main-info">
