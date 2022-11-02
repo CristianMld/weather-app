@@ -13,17 +13,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('https://images.unsplash.com/photo-1511909022865-a30191182d6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG91c2UlMjBhdCUyMG5pZ2h0fGVufDB8fDB8fA%3D%3D&w=1000&q=80');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card {
   box-shadow: 2px 2px 25px 2px rgba(0, 0, 0, 0.6);
-  width: 30%;
+  width: 70%;
   padding: 20px;
   border-radius: 10px;
   background: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: aliceblue;
 }
 
@@ -41,7 +40,7 @@ button {
 }
 
 img {
-  width: 50%;
+  width: 20%;
 }
 
 .main-info {
@@ -56,7 +55,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-left: 24%;
+  margin-left: 40%;
 }
 
 @media (max-width: 480px) {
