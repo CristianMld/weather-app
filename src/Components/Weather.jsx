@@ -31,7 +31,7 @@ const Weather = () => {
 
   return (
     <div className='card' style={{backgroundImage: 
-      icon === '01d' ? `url('https://media.istockphoto.com/photos/blue-sky-with-bright-sun-picture-id947314334?k=20&m=947314334&s=612x612&w=0&h=D5PEDOL_o_Ukv4r5g_fpwNrxhBSA1kxLulqmkSf9oRw=')` :
+      icon === '01d' ? `url('https://c.tenor.com/1IGg-nKS4v8AAAAC/diablo-llorando.gif')` :
       icon === '02d' ? `url('https://media.istockphoto.com/photos/deep-blue-view-on-a-lightly-clouded-day-picture-id171225633?k=20&m=171225633&s=612x612&w=0&h=WeWgAr8ozXR2KXGMpv6awDpwwzkDm7w3V117qE2hN1k=')` :
       icon === '03d' ? `url('https://live.staticflickr.com/1828/28636482297_bd428f26e8_b.jpg')` :
       icon === '04d' ? `url('https://c4.wallpaperflare.com/wallpaper/994/701/91/broken-heart-shaped-cloud-wallpaper-preview.jpg')` :
