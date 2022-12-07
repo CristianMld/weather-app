@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import LoadingScreen from './LoadingScreen';
 
 const Weather = () => {
 
@@ -54,7 +55,7 @@ const Weather = () => {
       {
         isLoading ? (
           <>
-            <h1>Loading...</h1>
+            <LoadingScreen className="spinner-overlay"/>
           </>
         ) : (
           <>
@@ -70,7 +71,7 @@ const Weather = () => {
               <h3><i className="fa-solid fa-temperature-half"></i> thermal sensation: {' '} 
               {isCelsius ? thermalSensation : sensationInFahrenheit} {isCelsius ? '°C' : '°F'}</h3>
               <button onClick={() => setIsCelsius(!isCelsius)}>
-              {isCelsius ? 'switch to Fahrenheit' : 'switch to Celsius'}</button>
+              {isCelsius ? 'Switch to Fahrenheit' : 'Switch to Celsius'}</button>
             </div>
           </>
         )
